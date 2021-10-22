@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="44dp">
+
+    <EditText
+        android:id="@+id/api_key_field"
+        android:layout_width="match_parent"
+        app:layout_constraintBottom_toTopOf="@+id/enter_btn"
+        android:layout_marginBottom="72dp"
+        android:textSize="16.67sp"
+        android:padding="23dp"
+        android:hint="@string/api_key_txt"
+        android:textColor="@color/edittext_text_color"
+        android:textColorHint="@color/edittext_text_color"
+        android:textAlignment="center"
+        android:imeOptions="actionDone"
+        android:singleLine="true"
+        android:background="@drawable/edittext_bg"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/enter_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foreground="?attr/selectableItemBackground"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/enter_btn_bg"
+        android:text="@string/enter"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:padding="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

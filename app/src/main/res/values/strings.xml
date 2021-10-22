@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">WeatherApp</string>
+    <string name="app_name">Weather App</string>
+    <string name="enter">Enter</string>
+    <string name="api_key">8ddadecc7ae4f56fee73b2b405a63659</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="dummy_city_name">İstanbul, TR</string>
+    <string name="dummy_city_weather">5</string>
+    <string name="back">Back</string>
+    <string name="api_key_txt">API KEY</string>
 </resources>

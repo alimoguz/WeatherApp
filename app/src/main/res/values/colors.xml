@@ -7,4 +7,10 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="enter_btn_bg_color">#47525E</color>
+    <color name="edittext_border_color">#8492A6</color>
+    <color name="edittext_text_color">#47525E</color>
+    <color name="city_name_color">#47525E</color>
+    <color name="back_btn_color">#8190A5</color>
+    <color name="gradient_color">#10333333</color>
 </resources>
